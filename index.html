@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Simon game</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <h1 class="text-center text-white"><strong> SIMON GAME</strong></h1>
+<h2 class="container text-warning text-center hide" id="win">YOU WIN</h2>
+<div class="container" id="colors">
+    <div class="row">
+      <button class="col-sm-6 btn btn-lg color" id="red" data-color="red" disabled="true">red</button>
+      <button class="col sm-6 btn btn-lg color" id="green" data-color="green" disabled="true">green</button>
+    </div>
+  <div class="row">
+    <h3 class="text-center col-sm-2  offset-sm-2 text-white">steps:</h3>
+    <p class="col-sm-1 text-center text-white text-danger" id="steps">0</p>
+    <button class="col-sm-2 btn btn-success text-center text-white" id="start">START</button><button class="btn-danger" id="startStatus"></button>
+    <button class="col-sm-2 text-center btn btn-warning text-white" id="strict">STRICT</button><button class="btn-danger" id="strictStatus"></button>
+  </div>
+    <div class="row">
+      <button class="col-sm-6 btn btn-lg color" id="blue" data-color="blue" disabled="true">blue</button>
+      <button class="col sm-6 btn btn-lg color" id="yellow" data-color="yellow" disabled="true">yellow</button>
+    </div>
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
